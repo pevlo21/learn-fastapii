@@ -10,4 +10,4 @@ async def root():
 @app.post("/api/v1/login")
 async def login(username: str, password: str):
     print(f"Username: {username}, Password: {password}")
-    return {"message": "Login endpoint"}
+    return {"message": "Login endpoints"}
